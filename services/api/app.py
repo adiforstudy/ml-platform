@@ -4,7 +4,7 @@ import requests
 
 app = FastAPI()
 
-MODEL_SERVICE_URL = "http://localhost:8001/predict"
+MODEL_SERVICE_URL = "http://model:8001/predict"
 
 # ✅ Define request schema properly
 class PredictionRequest(BaseModel):
